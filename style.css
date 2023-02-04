@@ -1,0 +1,129 @@
+body {
+    background-image: url("images/blackJ.jpeg");
+    background-size: cover;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    background: goldenrod;
+    border: none;
+    border-radius: 2px;
+    color: #f6fef9;
+    font-weight: bold;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 150px;
+}
+
+button:hover {
+    background: #f6fef9;
+    color:  goldenrod;;
+
+}
+
+
+.title {
+   
+    color: goldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em; 
+    padding: 0.5em;
+    width: 500px;
+}
+.instructions{
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5em;
+    text-align: justify;
+    width: 500px;
+}
+.instructions h2 {
+    border-bottom: 1px solid white;
+    color: rgb(218, 165, 32);
+}
+.game{
+
+display: flex;
+justify-content:start;
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+
+
+}
+.game h2{
+   
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 10px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 4px;
+    padding-left: 1px;
+    padding-top: 4px;
+    width: 320px;
+}
+#dealerPic {
+    background-image: url("images/dealer.png");
+    background-size: cover;
+    border: 2px solid rgb(3, 0, 0);
+    border-radius: 10px ;
+    height: 150px;
+    margin-bottom: none;
+    margin-top: none;
+    padding-bottom: none;
+    padding-top: none;
+    width:150px;
+
+}
+
+.cards{
+        align-items: start;
+        background-image: url("images/table.png");
+        background-size: cover;
+       
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+        margin: auto;
+        text-indent: 50px;
+       
+        width: 500px;
+
+}
+
+.player{
+    
+    color: rgb(255, 251, 251);
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 10px;
+    text-shadow: 3px 2px 4px black;
+    width: 200px;
+
+    
+
+}

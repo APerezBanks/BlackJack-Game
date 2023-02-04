@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="title">
+        <h1>Blackjack</h1>
+        </div>
+        <div class="instructions">
+        <h2> How to play?</h2>
+        <p>The goal of the game is to beat the dealer by having a hand value of 21 or close to it, without going over.</p>
+        <p>Each player and the dealer start with two cards. The player can "hit" to get additional cards, or "HOLD" to keep their current hand. The dealer must hit until their hand value is at least 17.</p>
+        <p>If the player busts (goes over 21), they lose the game. If both the player and dealer have the same hand value, it is a tie (push).</p>
+       
+
+
+
+        <!-- <p> The objective of the game is to get Blackjack, which you be achieved by getting extactly 21 points. </p>
+        <p> Draw cards untill you reach 21 points but don't go over o you will loose.</p> -->
+        </div>
+
+        <div class="game">
+        <div id="dealerPic"></div>
+        <div><h2 id="message-el">Want to play a round ?</h2></div>
+       
+
+     
+
+        </div>
+
+        <div class="cards"> 
+            <div><p id="dealer-el">Dealer:</p></div>
+            <div><p id="cards-el">Cards:</p></div>
+            <div><p id="sum-el">Sum:</p></div>
+            </div>
+
+        <button onclick="startGame()">START GAME</button>
+        <button onclick="newCard()">HIT</button>
+        <button onclick="hold()">HOLD</button>
+      
+        <div class="player">
+        <p id="player-el"></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
